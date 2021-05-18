@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Андрей Шинкарев](https://up.htmlacademy.ru/htmlcss/31/user/779351).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Трифонов](https://htmlacademy.ru/profile/wrgraff).
 
 ---
 
