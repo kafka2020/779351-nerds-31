@@ -172,6 +172,42 @@ a {
   line-height: 45px;
 }
 
-.company p {
-  color: red;
+.features .text,
+.feature-item {
+  color: var(--basic-extra-dark);
 }
+
+.company .subtitle {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.features-list {
+  list-style-type: none;
+}
+
+.description-details {
+  line-height: 18px;
+  color: var(--basic-extra-dark);
+}
+
+.description-term {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.description-term span {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.precision {
+  background-image: url(../img/logo/nerds-big-logo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
