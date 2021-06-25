@@ -120,3 +120,11 @@ a {
   border: none;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #E74246;
+}
+
+.button:active  {
+  background-color: #D7373B;
+}
