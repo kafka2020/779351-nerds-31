@@ -72,16 +72,15 @@ a {
   line-height: 30px;
   text-transform: uppercase;
   background-color: var(--basic-gray);
-  /* background-color: transparent; */
 }
 
 .site-navigation {
   list-style: none;
 }
 
-/* .site-navigation a {
-
-} */
+.site-navigation a {
+  color: var(--basic-black);
+}
 
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -90,9 +89,9 @@ a {
   color: var(--special-red);
 }
 
-.site-navigation a:active {
+/* .site-navigation a:active {
 
-}
+} */
 
 .site-navigation a:not([href]) {
   text-decoration: underline;
