@@ -106,7 +106,7 @@ a {
   line-height: 55px;
 }
 
-.slider .subtitle {
+.slider .text {
   color: var(--basic-extra-dark);
 }
 
@@ -162,4 +162,16 @@ a {
 .slides .button:hover,
 .slides .button:focus {
   background-color: #EAB534;
+}
+
+/* Company */
+
+.slogan {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.company p {
+  color: red;
 }
