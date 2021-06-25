@@ -128,3 +128,38 @@ a {
 .button:active  {
   background-color: #D7373B;
 }
+
+/* Services */
+
+.services-list {
+  list-style-type: none;
+}
+
+.services h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.services p {
+  color:var(--basic-extra-dark);
+}
+
+.app .button {
+  background-color: var(--special-green);
+}
+
+.app .button:hover,
+.app .button:focus {
+  background-color: #00BC6C;
+}
+
+.slides .button {
+  background-color: var(--special-gold);
+}
+
+.slides .button:hover,
+.slides .button:focus {
+  background-color: #EAB534;
+}
