@@ -274,6 +274,7 @@ img {
 }
 
 .social-list .social-item {
+  background-color: var(--basic-dark);
   background-repeat: no-repeat;
 }
 
