@@ -36,6 +36,7 @@
   --basic-gray-400: #EEEEEE;
   --basic-gray-500: #DFDFDF;
   --basic-gray-700: #D5D5D5;
+  --basic-gray-border: #DBDBDB;
 
 
   --basic-white: #FFFFFF;
@@ -75,6 +76,15 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Catalog */
+
+.page-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  background-color: var(--basic-gray-400);
 }
 
 /* Main navigation */
@@ -311,4 +321,113 @@ img {
 .field {
   color: #444444;
   ;
+}
+
+/* Filters */
+
+.filter legend {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 18px;
+  color: var(--basic-extra-dark);
+}
+
+.filter-option {
+  line-height: 20px;
+}
+
+/* Filter buttons */
+
+.filter-button {
+  color:var(--basic-black);
+  background-color: var(--basic-gray-400);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--basic-gray-500);
+}
+.filter-button:active {
+  background-color: var(--basic-gray-700);
+  opacity: 0.3;
+}
+
+/* Sort*/
+
+.sort .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.sort-list {
+  list-style: none;
+}
+ .sort-item {
+   text-transform: uppercase;
+ }
+
+.sort-item a {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.sort-item-current a {
+  opacity: 1;
+}
+
+.sort-item a:hover,
+.sort-item a:focus {
+  opacity: 0.6;
+}
+
+.sort-item a:active {
+  opacity: 1;
+}
+
+/* Catalog */
+
+.catalog-list {
+  list-style: none;
+
+}
+
+.catalog-item h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+ .catalog-item p {
+  line-height: 18px;
+  color: var(--basic-dark);
+ }
+
+ /* Pagination */
+ .pagination-list {
+   list-style: none;
+ }
+
+.pagination-item a {
+  color:var(--basic-black);
+  background-color: var(--basic-gray-400);
+}
+
+.pagination-item-next {
+  text-transform: uppercase;
+  color:var(--basic-black);
+  background-color: var(--basic-gray-400);
+}
+
+.pagination-item-current a {
+  background-color: var(--basic-white);
+  border: 3px solid var(--basic-gray-border);
 }
