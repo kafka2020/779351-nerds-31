@@ -35,16 +35,14 @@
   --basic-dark: #666666;
   --basic-gray-400: #EEEEEE;
   --basic-gray-500: #DFDFDF;
+  --basic-gray-600: #DBDBDB;
   --basic-gray-700: #D5D5D5;
-  --basic-gray-border: #DBDBDB;
-
 
   --basic-white: #FFFFFF;
 
   --special-red-400: #FB565A;
   --special-red-500: #E74246;
   --special-red-700: #D7373B;
-
 
   --special-green-400: #00CA74;
   --special-green-500: #00BC6C;
@@ -399,7 +397,7 @@ img {
 
 }
 
-.catalog-item h3 {
+.project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
